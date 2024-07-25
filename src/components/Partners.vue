@@ -7,10 +7,7 @@
 <script>
 /* eslint-disable vue/multi-word-component-names */
 export default {
-  name: 'Partners',
-  mounted() {
-    console.log('partner')
-  }
+  name: 'Partners'
 }
 /* eslint-enable vue/multi-word-component-names */
 </script>
