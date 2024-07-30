@@ -10,18 +10,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item ">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" @click="toPartner">Partners</a>
+          <a class="nav-link active" aria-current="page" @click="toSolutionPage">Solutions</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" @click="toPartnersPage">Partners</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Resources
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Blog</a></li>
-            <li><a class="dropdown-item" href="#">FAQ</a></li>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" style="color: #009C77;" @click="toBlogPage">Blog</a></li>
+            <li><a class="dropdown-item" style="color: #009C77;" href="#">FAQ</a></li>
           </ul>
         </li>
       </ul>
@@ -34,8 +37,14 @@
 export default {
   name: 'NavBar',
   methods: {
-    toPartner() {
-      this.$router.push('/partner');
+    toSolutionPage() {
+      this.$router.push('/solutionpage');
+    },
+    toPartnersPage() {
+      this.$router.push('/partnerspage');
+    },
+    toBlogPage() {
+      this.$router.push('/blogpage');
     }
   }
 }
@@ -44,7 +53,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .nav-link, .nav-link.active {
-  color: #00FFC2;
+  color: #009C77;
+  cursor: pointer;
+}
+.dropdown-item {
+  cursor:pointer;
 }
 .brand-image {
   width: 200px;
