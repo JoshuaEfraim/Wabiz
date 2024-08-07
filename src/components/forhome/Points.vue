@@ -3,27 +3,27 @@
   <div class="container">
         <div class="row">
             <!-- Big Column on the Left -->
-            <div class="col-lg-6 box">
-              <img src="features.png" width="700">
+            <div class="col-lg-6 box mt-5 pt-5">
+              <img src="engagingfeature.png" width="500">
             </div>
             <!-- Small Columns on the Right -->
             <div class="col-lg-5">
                 <div class="row">
                     <div class="col-md-12 box first  mb-4">
-                        <h3 class="heading">Engaging Features</h3>
-                        <p>Fully featured messaging to create consistently delightful experiences that help drive business outcomes across the customer journey</p>
+                        <h3 class="heading">{{ content.home_page.Points.TitleOne }}</h3>
+                        <p>{{ content.home_page.Points.BodyOne }}</p>
                     </div>
                     <div class="col-md-12 box mb-4">
-                        <h3 class="heading">Quality by Design</h3>
-                        <p>The API has built-in user feedback controls which help ensure engagement stays high overtime</p>
+                        <h3 class="heading">{{ content.home_page.Points.TitleTwo }}</h3>
+                        <p>{{ content.home_page.Points.BodyTwo }}</p>
                     </div>
                     <div class="col-md-12 box mb-4">
-                        <h3 class="heading">Intuitively Conversational</h3>
-                        <p>1st social media messenger preferred by user to have interaction with</p>
+                        <h3 class="heading">{{ content.home_page.Points.TitleThree }}</h3>
+                        <p>{{ content.home_page.Points.BodyThree }}</p>
                     </div>
                     <div class="col-md-12 box">
-                        <h3 class="heading">Automate and Scale</h3>
-                        <p>Flexible platform that lets you deliver consistent, personalized customer experiences at scale</p>
+                        <h3 class="heading">{{ content.home_page.Points.TitleFour }}</h3>
+                        <p>{{ content.home_page.Points.BodyFour }}</p>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,10 @@
 <script>
 /* eslint-disable vue/multi-word-component-names */
 export default {
-  name: 'Points'
+  name: 'Points',
+  props: {
+   content: String
+  }
 }
 /* eslint-enable vue/multi-word-component-names */
 </script>
@@ -56,7 +59,6 @@ export default {
     font-weight:600;
   }
   .container {
-    border: solid 2px black;
     border-radius: 60px;
   }
 

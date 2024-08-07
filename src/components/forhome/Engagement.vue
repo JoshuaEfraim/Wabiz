@@ -9,42 +9,42 @@
                 <div class="row">
                     <div class="col-md-6 box first  mb-4">
                         <img src="sound.gif" height="70">
-                        <h4 class="heading">Alert and Reminder</h4>
-                        <p>Ensure Timely Notifications and Important Reminders for Your Customers</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleOne }}</h4>
+                        <p>{{ content.home_page.Engagement.BodyOne }}</p>
                     </div>
                     <div class="col-md-6 box first mb-4">
                       <img src="notification.gif" height="70">
-                        <h4 class="heading">Transaction and Notification</h4>
-                        <p>Keep Customers Informed with Real-Time Transaction Updates</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleTwo }}</h4>
+                        <p>{{ content.home_page.Engagement.BodyTwo }}</p>
                     </div>
                     <div class="col-md-6 box mb-4">
                       <img src="promotion.gif" height="70">
 
-                        <h4 class="heading">Marketing Promotion</h4>
-                        <p>Amplify Your Reach and Engage Your Audience with Targeted Marketing Campaigns</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleThree }}</h4>
+                        <p>{{ content.home_page.Engagement.BodyThree }}</p>
                     </div>
                     <div class="col-md-6 box ">
                       <img src="password.gif" height="70">
 
-                        <h4 class="heading">Authentication</h4>
-                        <p>Provide a Secure and Effortless Authentication Process for Your Users</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleFour }}</h4>
+                        <p>{{ content.home_page.Engagement.BodyFour }}</p>
                     </div>
                     <div class="col-md-6 box mb-4">
                       <img src="brochure.gif" height="70">
 
-                        <h4 class="heading">Catalog</h4>
-                        <p>Present and Manage Your Product Offerings Seamlessly for Easy Customer Browsing</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleFive }}</h4>
+                        <p>{{ content.home_page.Engagement.BodyFive }}</p>
                     </div>
                     <div class="col-md-6 box">
                       <img src="advertising.gif" height="70">
 
-                        <h4 class="heading">Click to Whatsapp</h4>
-                        <p>Enable Instant, Direct Customer Engagement with a Simple Click</p>
+                        <h4 class="heading">{{ content.home_page.Engagement.TitleSix }}</h4>
+                        <p>{{ content.home_page.Engagement.BodySix }}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 box ">
-              <img src="engagement.png" width="700" height="700">
+            <div class="col-lg-6 phoneimage box">
+              <img src="customerengagement.png" width="625" height="540">
             </div>
         </div>
     </div>
@@ -56,7 +56,10 @@
 <script>
 /* eslint-disable vue/multi-word-component-names */
 export default {
-  name: 'Engagement'
+  name: 'Engagement',
+  props: {
+   content: String
+  }
 }
 /* eslint-enable vue/multi-word-component-names */
 </script>
@@ -66,11 +69,15 @@ export default {
     font-weight: 600;
     color:#009C77;
   }
+  .phoneimage {
+    margin-top: 10vh;
+  }
   .container-fluid {
     padding-top:80px;
     padding-bottom:80px;
     font-family: Metrophobic;
   }
+
   .first {
     margin-top:8%;
   }

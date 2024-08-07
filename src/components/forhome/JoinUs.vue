@@ -1,98 +1,146 @@
 <template>
-<div class="container-fluid pb-5">
-  <div class="container text-center">
-  <div class="row justify-content-center pt-5">
-    <div class="col-12 mb-5">
-      <h1 class="heading">What We Will Create Together</h1>
-    </div>
-    <div class="col-4">
-      <img src="Ipad.png" height="430">
-    </div>
-    <div class="col-4">
-      <img src="Ipad.png" height="430">
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-4">
-      <h4 class="Existence title" style="color:red">Existence</h4>
-      <h3>Establish Your Digital Presence</h3>
-        <p>Establish a business profile with helpful information for your customers about your business like address, description, opening hours, email & website via WhatsApp Business Platform</p>
-    </div>
-    <div class="col-4">
-      <h4 class="Recognize title" style="color:green">Recognition</h4>
-      <h3>Amplify Your Brand Identity</h3>
-      <p>75% of international adults want to be able to communicate with businesses in the same way that they communicate with friends/family. </p>
-    </div>
-  </div>
-  <div class="row justify-content-center mt-5">
-    <div class="col-4">
-      <img src="Ipad.png" height="430">
-    </div>
-    <div class="col-4">
-      <img src="Ipad.png" height="430">
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-4">
-      <h4 class="Communicate title" style="color:blue">Communication</h4>
-      <h3>Engage Effortlessly with Your Audience</h3>
-      <p>Providing different kinds of messages to quickly setup your business. Where messages deliver critical information to customers in
-        a convenient and highly visible channel.</p>
-
-    </div>
-    <div class="col-4">
-      <h4 class="Interaction title" style="color:darkgoldenrod">Interaction</h4>
-      <h3>Foster Meaningful Connections and Interactions</h3>
-      <p>Creating a self-service interaction for users, help to streamline and quickly process actions and drive better customer conversion. </p>
-    </div>
-  </div>
-  <div class="row firstrow justify-content-center mt-4">
-      <div class="col-8 presence">
-        <h4 class="joinus mb-0">Join Us Now!</h4>
-        <div class="buttons pt-4">
-          <a class="btn" href="#" role="button">Register</a>
-          <a class="btn ms-3" href="#" role="button">Talk to an Expert</a>
-        </div>
+  <div class="container-fluid">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="indicator active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" class="indicator" aria-label="Slide 4"></button>
 
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="6000">
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <img src="existence.svg" class="d-block w-100" alt="..." height="420">
+            </div>
+            <div class="col-5" >
+              <h3><strong>{{ content.home_page.JoinUs.TitleOne }}</strong></h3>
+              <h2>{{ content.home_page.JoinUs.HeadingOne }}</h2>
+              <p>
+                {{ content.home_page.JoinUs.BodyOne }}              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <img src="recognition.svg" class="d-block w-100" alt="..." height="420">
+            </div>
+            <div class="col-5">
+              <h3><strong>{{ content.home_page.JoinUs.TitleTwo }}</strong></h3>
+              <h2>{{ content.home_page.JoinUs.HeadingTwo }}</h2>
+              <p>
+                {{ content.home_page.JoinUs.BodyTwo }}              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <img src="communication.svg" class="d-block w-100" alt="..." height="420">
+            </div>
+            <div class="col-5">
+              <h3><strong>{{ content.home_page.JoinUs.TitleThree }}</strong></h3>
+              <h2>{{ content.home_page.JoinUs.HeadingThree }}</h2>
+              <p>
+                {{ content.home_page.JoinUs.BodyThree }}              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <div class="row justify-content-center">
+            <div class="col-3">
+              <img src="interaction.svg" class="d-block w-100" alt="..." height="420">
+            </div>
+            <div class="col-5">
+              <h3><strong>{{ content.home_page.JoinUs.TitleFour }}</strong></h3>
+              <h2>{{ content.home_page.JoinUs.HeadingFour }}</h2>
+              <p>
+                {{ content.home_page.JoinUs.BodyFour }}              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</div>
-</div>
-
-
+  </div>
 </template>
 
 <script>
 /* eslint-disable vue/multi-word-component-names */
 export default {
-  name: 'JoinUs'
-}
+  name: 'JoinUs',
+  props: {
+   content: String
+  },
+  methods: {
+    toFormpage() {
+      this.$router.push('/formspage');
+    }
+  }
 /* eslint-enable vue/multi-word-component-names */
+}
 </script>
 
 <style scoped>
-.container {
-  font-family: metrophobic;
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat;
+}
+.row {
+  margin-top: 6vh;
+  margin-bottom: 3vh;
 }
 h3 {
-  font-weight:600;
-  margin-bottom: 4%;
+  color:#00ae8e;
 }
-.btn {
-  width: 200px;
-  border-radius: 60px;
-  background-color:#96DED1;
-}
-.container-fluid {
-  background-color:#E0ECF0;
-
-}
-.title {
-  font-weight:1000;
-}
-.heading {
-  font-weight:1000;
-  color:#009C77;
+.carousel-indicators .indicator {
+  background-color: black; /* Set the indicator color */
+  border: none; /* Remove any border */
 }
 
+.carousel-indicators .indicator.active {
+  background-color: black; /* Set the active indicator color */
+}
+
+p {
+  text-align: left;
+  margin-top: 2vh;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 60vh;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.col-5 {
+  text-align: left;
+  margin-top: 10vh;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+  width: 80px; /* Adjust the icon width */
+  height: 80px; /* Adjust the icon height */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1); /* Optional: Invert colors for visibility */
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <section id="clients" class="section-bg" style="text-align: center;">
+    <section id="clients" class="section-bg mb-5" style="text-align: center;">
         <!-- <marquee direction="left" behavior="scroll" scrolldelay='5' scrollspeed='true' style="webkit-flex-shrink: 0;
         -ms-flex-negative: 0;
         flex-shrink: 0;

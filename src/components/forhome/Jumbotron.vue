@@ -3,15 +3,15 @@
     <div class="container text-center py-5 ">
     <div class="row">
       <div class="col">
-        <img src="Wabiz.JPG" alt="Bootstrap" width="90%" height="45%">
+        <img src="@/assets/Wabiz.jpg" alt="Bootstrap" width="90%" height="45%">
         <p>Self-Service Solutions, Seamless Connections</p>
         <div class="text1 mt-5" style="color:#009C77;">
           <h2 class="quote"><strong>  
-            “Anyone Should Be Able to
-            <span style="color:#7A4AFF;">Reach</span>,
-            <span style="color:#7A4AFF;">Communicate</span> and
-            <span style="color:#7A4AFF;">Transact</span>
-            With Any Businesses Via Whatsapp.”
+            {{content.home_page.Jumbotron.quote.firstline}}
+            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.secondline}}</span>
+            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.thirdline}}</span>{{content.home_page.Jumbotron.quote.and}}
+            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.fourthline}}</span>
+            {{content.home_page.Jumbotron.quote.fifthline}}
           </strong></h2>
         </div>
       </div>
@@ -27,7 +27,10 @@
 <script>
 /* eslint-disable vue/multi-word-component-names */
 export default {
-  name: 'Jumbotron'
+  name: 'Jumbotron',
+  props: {
+    content: String
+  }
 }
 /* eslint-enable vue/multi-word-component-names */
 </script>
@@ -38,7 +41,7 @@ export default {
 }
 
 .quote {
-  font-family: metrophobic;
+  font-family: Montserrat;
 }
 
 

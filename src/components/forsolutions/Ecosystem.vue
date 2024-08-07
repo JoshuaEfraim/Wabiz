@@ -3,48 +3,48 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-6">
-        <img class="ecosystem" src="ecosystem.png" height="450">
+        <img class="ecosystem" src="@/assets/public/ecosystem.png" height="450">
       </div>
       <div class="col-5 text-left introduction">
-        <h2 class="title">The Ecosystem We are Creating</h2>
-        <p>In today’s fast-paced market, small businesses need effective tools to reach their customers quickly and efficiently. Our platform bridges the gap between businesses and their customers, ensuring timely and relevant communication.</p>
-        <p>Our platform facilitates seamless interactions between customers, creating a community where they can share experiences, provide feedback, and support each other. This interconnected ecosystem not only enhances customer satisfaction but also drives business growth through word-of-mouth and social proof.</p>
+        <h2 class="title">{{ content.solution_page.Ecosystem.Title }}</h2>
+        <p>{{ content.solution_page.Ecosystem.Paragraphone }}</p>
+        <p>{{ content.solution_page.Ecosystem.Paragraphtwo }}</p>
         <div class="buttons pt-4">
-          <a class="btn" href="#" role="button">Register</a>
-          <a class="btn ms-3" href="#" role="button">Talk to an Expert</a>
+          <a class="btn" href="#" role="button">{{ content.solution_page.Ecosystem.Register }}</a>
+          <a class="btn ms-3" @click="toFormpage" role="button">{{ content.solution_page.Ecosystem.Talk }}</a>
         </div>
       </div>
     </div>
     <div class="row informations justify-content-center">
       <div class="col-3">
-        <img src="CustomerEngagement.gif" height="100" width="100">
-        <h3 class="heading">Enhance Customer Engagement</h3>
+        <img src="@/assets/public/customerengagement.gif" height="100" width="100">
+        <h3 class="heading">{{ content.solution_page.Ecosystem.Pointone }}</h3>
       </div>
       <div class="col-3">
-        <img src="sale.gif" height="100" width="100">
-        <h3 class="heading">Increase Sales</h3>
+        <img src="@/assets/public/sale.gif" height="100" width="100">
+        <h3 class="heading">{{ content.solution_page.Ecosystem.Pointtwo }}</h3>
       </div>
       <div class="col-3">
-        <img src="community.gif" height="100" width="100">
-        <h3 class="heading">Build a Community</h3>
+        <img src="@/assets/public/community.gif" height="100" width="100">
+        <h3 class="heading">{{ content.solution_page.Ecosystem.Pointthree }}</h3>
       </div>
       <div class="col-3">
-        <img src="insight.gif" height="100" width="100">
-        <h3 class="heading">Gain Insights</h3>
+        <img src="@/assets/public/insight.gif" height="100" width="100">
+        <h3 class="heading">{{ content.solution_page.Ecosystem.Pointfour }}</h3>
       </div>
 
       <div class="w-100"></div>
       <div class="col-3">
-        <p>Keep your customers informed and engaged with real-time notifications and updates.</p>
+        <p>{{ content.solution_page.Ecosystem.Bodyone }}</p>
       </div>
       <div class="col-3">
-        <p>Boost your sales with targeted promotions and timely announcements.</p>
+        <p>{{ content.solution_page.Ecosystem.Bodytwo }}</p>
       </div>
       <div class="col-3">
-        <p>Create a loyal customer base that interacts, shares, and supports your business.</p>
+        <p>{{ content.solution_page.Ecosystem.Bodythree }}</p>
       </div>
       <div class="col-3">
-        <p>Collect valuable feedback and insights from your customers to improve your offerings.</p>
+        <p>{{ content.solution_page.Ecosystem.Bodyfour }}</p>
       </div>
     </div>
   </div>
@@ -56,11 +56,13 @@ export default {
       /* eslint-disable vue/multi-word-component-names */
 
   name: 'Ecosystem',
+  props: {
+   content: String
+  },
   methods: {
-    toPartner() {
-      this.$router.push('/partner');
-    }
-  }
+    toFormpage() {
+      this.$router.push('/formspage');
+    }}
 }
 </script>
 
@@ -76,7 +78,7 @@ export default {
 }
 .btn {
   background-color:#009C77;
-  border:1px solid black;
+  border:1px solid #007258;
   color:white;
   width:30%;
   border-radius: 60px;

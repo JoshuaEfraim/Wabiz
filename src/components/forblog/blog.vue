@@ -1,7 +1,7 @@
 <template>
 <div class="container-fluid">
   <div class="block">
-        <h3 class="title pb-3 pt-3">Blog</h3>
+        <h2 class="title pb-3 pt-3">Blog</h2>
       </div>
 </div>
 <div class="container">
@@ -35,13 +35,16 @@ export default {
 .container {
   font-family: metrophobic;
 }
+.container-fluid {
+  font-family: metrophobic;
+}
 .text-left {
   text-align: left;
 }
 .block  {
   background-color:#009C77;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 
 }
 .title {
