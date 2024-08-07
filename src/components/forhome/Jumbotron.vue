@@ -5,7 +5,7 @@
       <div class="col">
         <img src="Wabiz.JPG" alt="Bootstrap" width="90%" height="45%">
         <p>Self-Service Solutions, Seamless Connections</p>
-        <div class="text1 mt-5" style="color:#79FF6E;">
+        <div class="text1 mt-5" style="color:#009C77;">
           <h2 class="quote"><strong>  
             “Anyone Should Be Able to
             <span style="color:#7A4AFF;">Reach</span>,

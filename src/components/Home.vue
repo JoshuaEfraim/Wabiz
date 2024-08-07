@@ -9,20 +9,21 @@
     <Engagement />
     <PhoneChange />
     <Clients />
+
     <Footer />
   </div>
 </template>
 
 <script>
 import NavBar from './NavBar.vue';
-import Jumbotron from './Jumbotron.vue';
-import Solutions from './Solutions.vue';
-import Statistics from './Statistics.vue';
-import JoinUs from './JoinUs.vue';
-import Points from './Points.vue';
-import Engagement from './Engagement.vue';
-import PhoneChange from './PhoneChange.vue';
-import Clients from './Clients.vue';
+import Jumbotron from './forhome/Jumbotron.vue';
+import Solutions from './forhome/Solutions.vue';
+import Statistics from './forhome/Statistics.vue';
+import JoinUs from './forhome/JoinUs.vue';
+import Points from './forhome/Points.vue';
+import Engagement from './forhome/Engagement.vue';
+import PhoneChange from './forhome/PhoneChange.vue';
+import Clients from './forhome/Clients.vue';
 import Footer from './Footer.vue';
 
 export default {
