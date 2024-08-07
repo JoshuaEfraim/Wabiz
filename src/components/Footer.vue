@@ -1,6 +1,6 @@
 <template>
 <div class="container-fluid">
-  <div class="container pt-4">
+  <div class="container pt-5 pb-5">
     <div class="row justify-content-center">
       <div class="col-4  text-left">
       <h1 class="title pb-0 mb-0" style="font-weight:1000">DAMCorp</h1>
@@ -13,11 +13,11 @@
     </div>
     <div class="col-2  text-left">
       <h4 style="font-weight:600">Sitemap</h4>
-      <p class="textmargin">> Home</p>
-      <p class="textmargin">> Solutions</p>
-      <p class="textmargin">> Partners</p>
-      <p class="textmargin">> Resources</p>
-      <p class="textmargin">> Platform</p>
+      <p class="textmargin">Home</p>
+      <p class="textmargin">Solutions</p>
+      <p class="textmargin">Partners</p>
+      <p class="textmargin">Resources</p>
+      <p class="textmargin">Platform</p>
     </div>
     <div class="col-2 text-left">
       <h4 style="font-weight:600">Our Products</h4>
@@ -29,14 +29,14 @@
       <p class="textmargin">Instagram = Wabiz</p>
       <p class="textmargin">Facebook = Wabiz</p>
       <p class="textmargin">Linkedin= Wabiz</p>
-      <img src="meta.png" height="100px">
-
-
     </div>
     </div>
   </div>
 </div>
-
+<div class="container bottom">
+  <img src="@/assets/public/meta.png" height="90px">
+  <h5 class="mt-1 text-left"><b>META</b> <br> <span style="font-size:16px;">Official Business Partner</span></h5>
+</div>
 </template>
 
 <script>
@@ -51,6 +51,16 @@ export default {
   background-color:#009C77;
   font-family: metrophobic;
   color:white;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: metrophobic;
+  height: 5vh;
+  padding-top: 35px;
+  background-color:white;
+
 }
 .text-left {
   text-align: left;

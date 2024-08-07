@@ -28,67 +28,72 @@
 export default {
  /* eslint-disable vue/multi-word-component-names */
   name: 'Create',
-  data() {
-    return {
-      industries: [
-        {
-          name: 'Financial Service',
-          img: 'budget.png',
-          services: [
-            'Transactional Notification',
-            'Application Verification',
-            'Collection & Reminder',
-          ],
-        },
-        {
-          name: 'Government',
-          img: 'government.png',
-          services: [
-            'Informational Updates',
-            'Reminder Alerts',
-            'Queries & FAQs',
-          ],
-        },
-        {
-          name: 'Retail, FMCG, F&B',
-          img: 'wholesaler.png',
-          services: [
-            'Purchase Order',
-            'Product Catalog',
-            'Promotional Program',
-          ],
-        },
-        {
-          name: 'Healthcare',
-          img: 'protection.png',
-          services: [
-            'Booking Appointments',
-            'Booking Reminders',
-            'Checking Status',
-          ],
-        },
-        {
-          name: 'Logistics',
-          img: 'logistics.png',
-          services: [
-            'Delivery Information',
-            'Tracking Package',
-            'Customer Service',
-          ],
-        },
-        {
-          name: 'Hospitality',
-          img: 'hospitality.png',
-          services: [
-            'Reservation Management',
-            'Guest Communication',
-            'Service Requests',
-          ],
-        },
-      ],
-    };
+  props: {
+   content: String
   },
-};
+  data() {
+  return {
+    industries: [
+      {
+        name: `${this.content.solution_page.Create.Financial}`,
+        img: require('@/assets/public/budget.png'),
+        services: [
+          `${this.content.solution_page.Create.FinancialOne}`,
+          `${this.content.solution_page.Create.FinancialTwo}`,
+          `${this.content.solution_page.Create.FinancialThree}`,
+        ],
+      },
+      {
+        name: `${this.content.solution_page.Create.Government}`,
+        img: require('@/assets/public/government.png'),
+        services: [
+          `${this.content.solution_page.Create.GovernmentOne}`,
+          `${this.content.solution_page.Create.GovernmentTwo}`,
+          `${this.content.solution_page.Create.GovernmentThree}`,
+        ],
+      },
+      {
+        name: `${this.content.solution_page.Create.Retail}`,
+        img: require('@/assets/public/wholesaler.png'),
+        services: [
+          `${this.content.solution_page.Create.RetailOne}`,
+          `${this.content.solution_page.Create.RetailTwo}`,
+          `${this.content.solution_page.Create.RetailThree}`,
+        ],
+      },
+      {
+        name: `${this.content.solution_page.Create.Healthcare}`,
+        img: require('@/assets/public/protection.png'),
+        services: [
+          `${this.content.solution_page.Create.HealthcareOne}`,
+          `${this.content.solution_page.Create.HealthcareTwo}`,
+          `${this.content.solution_page.Create.HealthcareThree}`,
+        ],
+      },
+      {
+        name:  `${this.content.solution_page.Create.Logistics}`,
+        img: require('@/assets/public/logistics.png'),
+        services: [
+          `${this.content.solution_page.Create.LogisticsOne}`,
+          `${this.content.solution_page.Create.LogisticsTwo}`,
+          `${this.content.solution_page.Create.LogisticsThree}`,
+        ],
+      },
+      {
+        name:`${this.content.solution_page.Create.Hospitality}`,
+        img: require('@/assets/public/hospitality.png'),
+        services: [
+          `${this.content.solution_page.Create.HospitalityOne}`,
+          `${this.content.solution_page.Create.HospitalityTwo}`,
+          `${this.content.solution_page.Create.HospitalityThree}`,
+        ],
+      },
+    ],
+  };
+}
+
+    };
+
 </script>
 
 <style scoped>

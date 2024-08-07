@@ -9,18 +9,18 @@
         </p>
         <div class="buttons pt-4">
           <a class="btn" href="#" role="button">Register</a>
-          <a class="btn ms-3" href="#" role="button">Talk to an Expert</a>
+          <a class="btn ms-3" @click="toFormpage" role="button">Talk to an Expert</a>
         </div>
       </div>
       
       <div class="col-6  worldmap">
-        <img src="worldmap.svg" height="330">
+        <img src="@/assets/public/worldmap.svg" height="330">
       </div>
 
       <div class="w-100 my-5"></div>
 
       <div class="col-6 mt-2">
-        <img src="locations.svg" height="300">
+        <img src="@/assets/public/locations.svg" height="300">
 
       </div>
       <div class="col-6">
@@ -46,6 +46,13 @@
 export default {
  /* eslint-disable vue/multi-word-component-names */
   name: 'World',
+  props: {
+   content: String
+  },
+  methods: {
+    toFormpage() {
+      this.$router.push('/formspage');
+    }}
   
 };
 </script>

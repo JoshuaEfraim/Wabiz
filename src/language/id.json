@@ -1,0 +1,167 @@
+{
+    "home_page": {
+        "Jumbotron": {
+            "quote": {
+                "firstline": "Everything can",
+                "secondline": "Integrate, ",
+                "thirdline": "Communicate, ",
+                "and": "and",
+                "fourthline": "Transact",
+                "fifthline": "Via Whatsapp Business”"
+            }
+        },
+        "Solutions": {
+            "Create": {
+                "Title": "Kelola bisnis Anda di WABIZ",
+                "Experience": "Kustomisasi informasi dan komunikasi dengan menggunakan WhatsApp API yang dioperasikan secara mandiri untuk meningkatkan penjualan, layanan, dan dukungan secara otomatis"
+            },
+            "Provide": {
+                "Title": "Solutions We Provide",
+                "HeadingOne": "Pengiriman Pesan Informasi",
+                "BodyOne": "Memberikan pembaharuan informasi terkait transaksi, pengiriman, dan lainnya yang sedang berjalan",
+                "HeadingTwo": "Pengiriman Pesan Percakapan Pemasaran",
+                "BodyTwo": "Memberikan informasi mengenai penawaran, promosi hingga informasi lainnya diikuti aksi dari customer membalas pesan",
+                "HeadingThree": "Pengiriman Pesan Kode OTP",
+                "BodyThree": "Memberikan informasi berupa pin untuk akses masuk akun hingga pemulihan akun."
+            },
+            "Presence": {
+                "Quote": "Let's Create a Presence for Business and User to Start Connecting!",
+                "Register": "Register",
+                "Expert": "Talk to an Expert"
+            }
+        },
+        "Statistics": {
+            "StatsOne": "70%",
+            "BodyOne": "Reduction Forwarding Messages",
+            "StatsTwo": "3x",
+            "BodyTwo": "Higher Read Rates vs SMS and Email",
+            "StatsThree": "#1",
+            "BodyThree": "Channel for Conversions Over Various Customer Communication Channels"
+        },
+        "JoinUs": {
+            "TitleOne": "EXISTENCE",
+            "HeadingOne": "Establish Your Digital Presence",
+            "BodyOne": "Desain profil bisnis yang menarik dan interaktif untuk layanan WhatsApp API Anda dengan elemen visual berkualitas dan fitur seperti demo video atau chat langsung. Pastikan profil Anda responsif di semua perangkat.",
+            "TitleTwo": "RECOGNITION",
+            "HeadingTwo": "Amplify Your Brand Identity",
+            "BodyTwo": "Tingkatkan visibilitas dengan iklan digital, kehadiran aktif di media sosial, dan website yang informatif. Gunakan pemasaran percakapan untuk mengirim pesan personal dan penawaran kepada calon klien.",
+            "TitleThree": "COMMUNICATION",
+            "HeadingThree": "Engage Effortlessly with Your Audience",
+            "BodyThree": "Kirimi pelanggan informasi penting, penawaran promosi, dan kode OTP melalui WhatsApp untuk meningkatkan keamanan. Pastikan komunikasi Anda bermanfaat dan membangun kepercayaan.",
+            "TitleFour": "INTERACTION",
+            "HeadingFour": "Foster Meaningful Connections and Interactions",
+            "BodyFour": "Dorong pelanggan untuk merespons pesan WhatsApp Anda dengan ajakan yang menarik. Gunakan umpan balik untuk personalisasi penawaran dan memperkuat hubungan dengan pelanggan."
+        },
+        "Points": {
+            "TitleOne": "Engaging Features",
+            "BodyOne": "Fully featured messaging to create consistently delightful experiences that help drive business outcomes across the customer journey",
+            "TitleTwo": "Quality by Design",
+            "BodyTwo": "The API has built-in user feedback controls which help ensure engagement stays high overtime",
+            "TitleThree": "Intuitively Conversational",
+            "BodyThree": "1st social media messenger preferred by user to have interaction with",
+            "TitleFour": "Automate and Scale",
+            "BodyFour": "Flexible platform that lets you deliver consistent, personalized customer experiences at scale"
+        },
+        "Engagement": {
+            "TitleOne":"Alert and Reminder",
+            "BodyOne": "Ensure Timely Notifications and Important Reminders for Your Customers",
+            "TitleTwo": "Transaction and Notification",
+            "BodyTwo": "Keep Customers Informed with Real-Time Transaction Updates",
+            "TitleThree": "Marketing Promotion",
+            "BodyThree": "Amplify Your Reach and Engage Your Audience with Targeted Marketing Campaigns",
+            "TitleFour": "Authentication",
+            "BodyFour": "Provide a Secure and Effortless Authentication Process for Your Users",
+            "TitleFive": "Catalog",
+            "BodyFive": "Present and Manage Your Product Offerings Seamlessly for Easy Customer Browsing",
+            "TitleSix": "Click to Whatsapp",
+            "BodySix": "Enable Instant, Direct Customer Engagement with a Simple Click"
+        },
+        "PhoneChange": {
+            "One": "Text",
+            "Two": "Quick Reply Button",
+            "Three": "Image",
+            "Four": "Document",
+            "Five": "Video",
+            "Six": "List Menu Message",
+            "Seven": "Call to Action",
+            "Eight": "Catalog"
+        }
+    },
+    "solution_page": {
+        "Ecosystem": {
+            "Title": "The Ecosystem We are Creating",
+            "Paragraphone": "In today’s fast-paced market, small businesses need effective tools to reach their customers quickly and efficiently. Our platform bridges the gap between businesses and their customers, ensuring timely and relevant communication.",
+            "Paragraphtwo": "Our platform facilitates seamless interactions between customers, creating a community where they can share experiences, provide feedback, and support each other. This interconnected ecosystem not only enhances customer satisfaction but also drives business growth through word-of-mouth and social proof.",
+            "Register": "Register",
+            "Talk": "Talk to an Expert",
+            "Pointone": "Enhance Customer Engagement",
+            "Bodyone": "Keep your customers informed and engaged with real-time notifications and updates.",
+            "Pointtwo": "Increase Sales",
+            "Bodytwo": "Boost your sales with targeted promotions and timely announcements.",
+            "Pointthree": "Build a Community",
+            "Bodythree": "Create a loyal customer base that interacts, shares, and supports your business.",
+            "Pointfour": "Gain Insights",
+            "Bodyfour": "Collect valuable feedback and insights from your customers to improve your offerings."
+        },
+        "Create": {
+            "Financial": "Financial Service",
+            "FinancialOne": "Transactional Notification",
+            "FinancialTwo": "Application Verification",
+            "FinancialThree": "Collection & Reminder",
+            "Government": "Government",
+            "GovernmentOne": "Informational Updates",
+            "GovernmentTwo": "Reminder Alerts",
+            "GovernmentThree": "Queries & FAQs",
+            "Retail": "Retail, FMCG, F&B",
+            "RetailOne": "Purchase Order",
+            "RetailTwo": "Product Catalog",
+            "RetailThree": "Promotional Program",
+            "Healthcare": "Healthcare",
+            "HealthcareOne": "Booking Appointments",
+            "HealthcareTwo": "Booking Reminders",
+            "HeakthcareThree": "Checking Status",
+            "Logistics": "Logistics",
+            "LogisticsOne": "Delivery Information",
+            "LogisticsTwo": "Tracking Package",
+            "Logistics Three": "Customer Service",
+            "Hospitality": "Hospitality",
+            "HospitalityOne": "Reservation Management",
+            "HospitalityTwo": "Guest Communication",
+            "HospitalityThree": "Service Requests"
+        }
+    },
+    "partner_page": {
+        "MCASH": {
+            "Title": "Our Company",
+            "ParagraphOne": "Wabiz, a product of Damcorp and a subsidiary of Mcash, operates in the WhatsApp API sector alongside its parent company. Unlike Damcorp, which offers tailored services, Wabiz provides a self-service, subscription-based model with a pay-as-you-go structure. This allows users to easily manage their WhatsApp API needs with flexibility and autonomy.",
+            "ParagraphTwo": "Leveraging the technological expertise of Damcorp and Mcash, Wabiz delivers scalable, high-quality communication solutions. Its self-service approach offers a more adaptable alternative to traditional service models, catering to the diverse needs of its users."
+        },
+        "World": {
+            "Join": "Join Us",
+            "Paragraph": "Join a growing network of multinational partners who trust Wabiz for their WhatsApp API needs. Our platform is designed to meet the diverse requirements of global businesses, ensuring seamless integration and superior performance. By partnering with us, you'll be in good company, benefiting from the same high-quality service and support that leading enterprises around the world rely on.",
+            "Register": "Register",
+            "Talk": "Talk to an Expert",
+            "Partner": "Our Partners"
+        },
+        "Success": {
+            "SuccessStory": "SuccessStory",
+            "Mandiri": "Mandiri Bank has significantly enhanced its customer engagement and business growth through the WhatsApp Business Platform. Utilizing this powerful communication tool, Mandiri has seen remarkable improvements in various key metrics. For instance, 37% of all conversions now occur via WhatsApp, highlighting the platform's effectiveness in driving customer actions. Furthermore, the use of WhatsApp has contributed to a substantial 42% increase in net margin interest income, showcasing its positive impact on the bank's financial performance. Additionally, the platform's instant and reliable notifications have resulted in a 56% increase in credit card applicants responding to verification requests, streamlining the application process and improving customer experience. By leveraging the WhatsApp Business Platform, Mandiri Bank has set a benchmark for digital transformation and customer-centric banking services.",
+            "MandiriNumberOne": "37%",
+            "MandiriStatsOne": "of all conversions are via Whatsapp",
+            "MandiriNumberTwo": "42%",
+            "MandiriStatsTwo": "increase in net margin interest income through Whatsapp",
+            "MandiriNumberThree": "56%",
+            "MandiriStatsThree": "more credit card applicants respond to verification notifications",
+            "Kemenkes": "Kemenkes memanfaatkan WhatsApp untuk berkomunikasi dan menyebarluaskan informasi guna mendukung upaya vaksinasi selama pandemi COVID-19. Dengan menggunakan layanan WhatsApp Business API yang disediakan oleh Damcorp, Kemenkes mampu mengelola lebih dari 500 ribu pesan dalam lima hari pertama sejak pandemi dimulai. Penggunaan chatbot yang terintegrasi dalam sistem ini memungkinkan penyampaian informasi mengenai jadwal vaksinasi dan sertifikat vaksin secara cepat dan efisien. Melalui WhatsApp, Kemenkes tidak hanya dapat mempercepat proses penyampaian informasi kepada masyarakat, tetapi juga meningkatkan partisipasi dalam program vaksinasi. Ini merupakan contoh sukses bagaimana teknologi dapat digunakan untuk mendukung kesehatan masyarakat dan mempercepat respon terhadap krisis kesehatan global.",
+            "KemenkesNumberOne": "70%",
+            "KemenkesStatsOne": "Reduction forwarding messages",
+            "KemenkesNumberTwo": ">500K",
+            "KemenkesStatsTwo": "Medical workers used chatbot in the first 5 days when Covid-19 happened in Indonesia",
+            "BAF": "BAF menyediakan solusi pendanaan bagi individu dan komersial untuk automotif, peralatan beternak, kendaraan komersial, dan lainnya. Sebelumnya, info tagihan, tanda terima digital, pesan sambutan, dan pesan pelanggan berbatas waktu lainnya dikirim lewat SMS dan email. Mereka ingin memanfaatkan tingkat baca dan penayangan pesan utilitas WhatsApp yang tinggi dan menghubungi Damcorp untuk mengurus prosesnya. Setelah mengalihkan pesan-pesan utama ke platform pilihan pelanggan, tingkat baca dan konversi BAF naik tiga kali lipat. Damcorp membantu BAF menerapkan pesan utilitas di touchpoint utama pelanggan di seluruh perjalanan pendanaan, mengelola klaim lewat WhatsApp, mengajukan klaim baru, mengecek status, dan mengunggah dokumen dalam satu utas percakapan yang memanfaatkan segudang fitur interaktifnya untuk membuat pesan yang dapat ditindaklanjuti dan memberikan pengalaman yang nyaman serta berkesan. Pesan utilitas dapat membantu perusahaan jasa keuangan menekan tingkat lambat bayar dan mendongkrak pendapatan teratas dengan mendorong tingkat tanggapan. Strategi ini juga mampu meningkatkan kepuasan pelanggan dengan membuat pengalaman pembayaran jadi lebih praktis, menekan biaya sebab pertanyaan yang masuk lebih sedikit.",
+            "BAFNumberOne": "3X",
+            "BAFStatsOne": "Higher Read Rates vs SMS and Email",
+            "BAFNumberTwo": "300%",
+            "BAFStatsTwo": "Higher Conversion Rates vs SMS and Email"
+        }
+    }
+}
