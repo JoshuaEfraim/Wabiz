@@ -8,11 +8,11 @@ import formspage from '@/components/formspage.vue'
 
 
 const routes = [
-  { path: '/:lang', name: "Home", component: Home },
-  { path: '/:lang/solutionpage', name: "SolutionPage", component: SolutionPage },
-  { path: '/:lang/partnerspage', name: "PartnersPage", component: PartnersPage},
-  { path: '/:lang/blogpage', name: "BlogPage", component: BlogPage},
-  { path: '/:lang/formspage', name: "formspage", component: formspage }
+  { path: '/', name: "Home", component: Home },
+  { path: '/solutionpage', name: "SolutionPage", component: SolutionPage },
+  { path: '/partnerspage', name: "PartnersPage", component: PartnersPage},
+  { path: '/blogpage', name: "BlogPage", component: BlogPage},
+  { path: '/formspage', name: "formspage", component: formspage }
 
 
 ]

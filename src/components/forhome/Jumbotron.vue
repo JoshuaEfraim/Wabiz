@@ -7,13 +7,14 @@
         <p>Self-Service Solutions, Seamless Connections</p>
         <div class="text1 mt-5" style="color:#009C77;">
           <h2 class="quote"><strong>  
-            {{content.home_page.Jumbotron.quote.firstline}}
-            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.secondline}}</span>
-            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.thirdline}}</span>{{content.home_page.Jumbotron.quote.and}}
-            <span style="color:#7A4AFF;">{{content.home_page.Jumbotron.quote.fourthline}}</span>
-            {{content.home_page.Jumbotron.quote.fifthline}}
+            {{ content.home_page?.Jumbotron.quote.firstline }}
+            <span style="color:#7A4AFF;">{{ content.home_page?.Jumbotron.quote.secondline }}</span>
+            <span style="color:#7A4AFF;">{{ content.home_page?.Jumbotron.quote.thirdline }}</span>{{ content.home_page?.Jumbotron.quote.and }}
+            <span style="color:#7A4AFF;">{{ content.home_page?.Jumbotron.quote.fourthline }}</span>
+            {{ content.home_page?.Jumbotron.quote.fifthline }}
           </strong></h2>
         </div>
+        {{ $t('home_page.Jumbotron.quote.firstline') }}
       </div>
       <div class="col">
         

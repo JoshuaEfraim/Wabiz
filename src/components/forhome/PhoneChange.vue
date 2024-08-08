@@ -10,36 +10,36 @@
           <div class="row content">
             <div class="col-3" :class="{'active': activeImage === 'text'}" @click="updateImage('text')">
               <img :src="activeImage === 'text' ? 'commentgreen.png' : 'comment.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.One }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.One }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'quickReply'}" @click="updateImage('quickReply')">
               <img :src="activeImage === 'quickReply' ? 'replygreen.png' : 'reply.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Two }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Two }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'image'}" @click="updateImage('image')">
               <img :src="activeImage === 'image' ? 'imagegreen.png' : 'image.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Three }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Three }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'document'}" @click="updateImage('document')">
               <img :src="activeImage === 'document' ? 'documentgreen.png' : 'document.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Four }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Four }}</h4>
             </div>
             <div class="w-100 my-3"></div>
             <div class="col-3" :class="{'active': activeImage === 'video'}" @click="updateImage('video')">
               <img :src="activeImage === 'video' ? 'videogreen.png' : 'video.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Five }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Five }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'list'}" @click="updateImage('list')">
               <img :src="activeImage === 'list' ? 'listgreen.png' : 'list.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Six }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Six }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'call'}" @click="updateImage('call')">
               <img :src="activeImage === 'call' ? 'callgreen.png' : 'call.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Seven }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Seven }}</h4>
             </div>
             <div class="col-3" :class="{'active': activeImage === 'catalog'}" @click="updateImage('catalog')">
               <img :src="activeImage === 'catalog' ? 'cataloggreen.png' : 'catalog.png'" height="75">
-              <h4 class="heading mt-1">{{ content.home_page.PhoneChange.Eight }}</h4>
+              <h4 class="heading mt-1">{{ content.home_page?.PhoneChange.Eight }}</h4>
             </div>
           </div>
         </div>

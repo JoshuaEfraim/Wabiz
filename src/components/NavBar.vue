@@ -53,26 +53,20 @@ export default {
   },
   methods: {
     changeLanguage(lang) {
-      localStorage.setItem('language', lang);
-      this.language = lang;
-      // let route = this.$router.currentRoute.value.path.split('/');
-      // window.location.href = `/${lang}/${route.length>2 ? route[route.length - 1] : ''}`
+      this.$i18n.locale = lang;
     },
     toHome() {
-      this.$router.push(`/${this.language}`);
+      this.$router.push(`/`);
     },
     toSolutionPage() {
-      this.$router.push(`/${this.language}/solutionpage`);
+      this.$router.push(`/solutionpage`);
     },
     toPartnersPage() {
-      this.$router.push(`/${this.language}/partnerspage`);
+      this.$router.push(`/partnerspage`);
     },
     toBlogPage() {
-      this.$router.push(`/${this.language}/blogpage`);
+      this.$router.push(`/blogpage`);
     }
-  },
-  created() {
-    this.language=localStorage.getItem('language');
   }
 }
 </script>

@@ -10,20 +10,20 @@
             <div class="col-lg-5">
                 <div class="row">
                     <div class="col-md-12 box first  mb-4">
-                        <h3 class="heading">{{ content.home_page.Points.TitleOne }}</h3>
-                        <p>{{ content.home_page.Points.BodyOne }}</p>
+                        <h3 class="heading">{{ content.home_page?.Points.TitleOne }}</h3>
+                        <p>{{ content.home_page?.Points.BodyOne }}</p>
                     </div>
                     <div class="col-md-12 box mb-4">
-                        <h3 class="heading">{{ content.home_page.Points.TitleTwo }}</h3>
-                        <p>{{ content.home_page.Points.BodyTwo }}</p>
+                        <h3 class="heading">{{ content.home_page?.Points.TitleTwo }}</h3>
+                        <p>{{ content.home_page?.Points.BodyTwo }}</p>
                     </div>
                     <div class="col-md-12 box mb-4">
-                        <h3 class="heading">{{ content.home_page.Points.TitleThree }}</h3>
-                        <p>{{ content.home_page.Points.BodyThree }}</p>
+                        <h3 class="heading">{{ content.home_page?.Points.TitleThree }}</h3>
+                        <p>{{ content.home_page?.Points.BodyThree }}</p>
                     </div>
                     <div class="col-md-12 box">
-                        <h3 class="heading">{{ content.home_page.Points.TitleFour }}</h3>
-                        <p>{{ content.home_page.Points.BodyFour }}</p>
+                        <h3 class="heading">{{ content.home_page?.Points.TitleFour }}</h3>
+                        <p>{{ content.home_page?.Points.BodyFour }}</p>
                     </div>
                 </div>
             </div>

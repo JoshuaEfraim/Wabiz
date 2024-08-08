@@ -9,37 +9,37 @@
                 <div class="row">
                     <div class="col-md-6 box first  mb-4">
                         <img src="sound.gif" height="70">
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleOne }}</h4>
-                        <p>{{ content.home_page.Engagement.BodyOne }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleOne }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodyOne }}</p>
                     </div>
                     <div class="col-md-6 box first mb-4">
                       <img src="notification.gif" height="70">
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleTwo }}</h4>
-                        <p>{{ content.home_page.Engagement.BodyTwo }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleTwo }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodyTwo }}</p>
                     </div>
                     <div class="col-md-6 box mb-4">
                       <img src="promotion.gif" height="70">
 
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleThree }}</h4>
-                        <p>{{ content.home_page.Engagement.BodyThree }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleThree }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodyThree }}</p>
                     </div>
                     <div class="col-md-6 box ">
                       <img src="password.gif" height="70">
 
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleFour }}</h4>
-                        <p>{{ content.home_page.Engagement.BodyFour }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleFour }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodyFour }}</p>
                     </div>
                     <div class="col-md-6 box mb-4">
                       <img src="brochure.gif" height="70">
 
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleFive }}</h4>
-                        <p>{{ content.home_page.Engagement.BodyFive }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleFive }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodyFive }}</p>
                     </div>
                     <div class="col-md-6 box">
                       <img src="advertising.gif" height="70">
 
-                        <h4 class="heading">{{ content.home_page.Engagement.TitleSix }}</h4>
-                        <p>{{ content.home_page.Engagement.BodySix }}</p>
+                        <h4 class="heading">{{ content.home_page?.Engagement.TitleSix }}</h4>
+                        <p>{{ content.home_page?.Engagement.BodySix }}</p>
                     </div>
                 </div>
             </div>

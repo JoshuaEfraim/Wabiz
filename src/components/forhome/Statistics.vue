@@ -5,22 +5,22 @@
       <div class="col-4">
         <img src="reduce.png" width="230" height=240 alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{content.home_page.Statistics.StatsOne}}</h5>
-          <p class="card-text">{{content.home_page.Statistics.BodyOne}}</p>
+          <h5 class="card-title">{{content.home_page?.Statistics.StatsOne}}</h5>
+          <p class="card-text">{{content.home_page?.Statistics.BodyOne}}</p>
         </div>
       </div>
       <div class="col-4">
         <img src="higherread.png" width="290" height=240 alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{content.home_page.Statistics.StatsTwo}}</h5>
-          <p class="card-text">{{content.home_page.Statistics.BodyTwo}}</p>
+          <h5 class="card-title">{{content.home_page?.Statistics.StatsTwo}}</h5>
+          <p class="card-text">{{content.home_page?.Statistics.BodyTwo}}</p>
         </div>
       </div>
       <div class="col-4">
         <img src="channelfor.png"  width="300" height=240 alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{content.home_page.Statistics.StatsThree}}</h5>
-          <p class="card-text third">{{content.home_page.Statistics.BodyThree}}</p>
+          <h5 class="card-title">{{content.home_page?.Statistics.StatsThree}}</h5>
+          <p class="card-text third">{{content.home_page?.Statistics.BodyThree}}</p>
         </div>
       </div>
     </div>

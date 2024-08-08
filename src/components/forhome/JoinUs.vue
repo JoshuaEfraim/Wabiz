@@ -15,10 +15,10 @@
               <img src="existence.svg" class="d-block w-100" alt="..." height="420">
             </div>
             <div class="col-5" >
-              <h3><strong>{{ content.home_page.JoinUs.TitleOne }}</strong></h3>
-              <h2>{{ content.home_page.JoinUs.HeadingOne }}</h2>
+              <h3><strong>{{ content.home_page?.JoinUs.TitleOne }}</strong></h3>
+              <h2>{{ content.home_page?.JoinUs.HeadingOne }}</h2>
               <p>
-                {{ content.home_page.JoinUs.BodyOne }}              </p>
+                {{ content.home_page?.JoinUs.BodyOne }}              </p>
             </div>
           </div>
         </div>
@@ -28,10 +28,10 @@
               <img src="recognition.svg" class="d-block w-100" alt="..." height="420">
             </div>
             <div class="col-5">
-              <h3><strong>{{ content.home_page.JoinUs.TitleTwo }}</strong></h3>
-              <h2>{{ content.home_page.JoinUs.HeadingTwo }}</h2>
+              <h3><strong>{{ content.home_page?.JoinUs.TitleTwo }}</strong></h3>
+              <h2>{{ content.home_page?.JoinUs.HeadingTwo }}</h2>
               <p>
-                {{ content.home_page.JoinUs.BodyTwo }}              </p>
+                {{ content.home_page?.JoinUs.BodyTwo }}              </p>
             </div>
           </div>
         </div>
@@ -41,10 +41,10 @@
               <img src="communication.svg" class="d-block w-100" alt="..." height="420">
             </div>
             <div class="col-5">
-              <h3><strong>{{ content.home_page.JoinUs.TitleThree }}</strong></h3>
-              <h2>{{ content.home_page.JoinUs.HeadingThree }}</h2>
+              <h3><strong>{{ content.home_page?.JoinUs.TitleThree }}</strong></h3>
+              <h2>{{ content.home_page?.JoinUs.HeadingThree }}</h2>
               <p>
-                {{ content.home_page.JoinUs.BodyThree }}              </p>
+                {{ content.home_page?.JoinUs.BodyThree }}              </p>
             </div>
           </div>
         </div>
@@ -54,10 +54,10 @@
               <img src="interaction.svg" class="d-block w-100" alt="..." height="420">
             </div>
             <div class="col-5">
-              <h3><strong>{{ content.home_page.JoinUs.TitleFour }}</strong></h3>
-              <h2>{{ content.home_page.JoinUs.HeadingFour }}</h2>
+              <h3><strong>{{ content.home_page?.JoinUs.TitleFour }}</strong></h3>
+              <h2>{{ content.home_page?.JoinUs.HeadingFour }}</h2>
               <p>
-                {{ content.home_page.JoinUs.BodyFour }}              </p>
+                {{ content.home_page?.JoinUs.BodyFour }}              </p>
             </div>
           </div>
         </div>

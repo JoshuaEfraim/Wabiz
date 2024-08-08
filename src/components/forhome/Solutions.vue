@@ -2,12 +2,12 @@
   <div class="new-color mb-0 pt-3 pb-2" style="background-color:	 #eaeef4;">
     <div class="row firstrow justify-content-center ">
     <div class="col-7 mt-5">
-      <H3 class="Create">{{content.home_page.Solutions.Create.Title}}</H3> 
+      <H3 class="Create">{{content.home_page?.Solutions.Create.Title}}</H3> 
     </div>
     <div class="row firstrow justify-content-center ">
       <div class="row justify-content-center">
         <div class="col-6">
-          <h5 class="Experience">{{ content.home_page.Solutions.Create.Experience }}</h5>
+          <h5 class="Experience">{{ content.home_page?.Solutions.Create.Experience }}</h5>
 
         </div>
       </div>
@@ -16,15 +16,15 @@
   </div>
   <div class="container-fluid text-center mx-auto mt-0 pt-5">
   <div class="col-12 mb-5">
-    <H1 style="font-weight: 300;">{{content.home_page.Solutions.Provide.Title}}</H1>
+    <H1 style="font-weight: 300;">{{content.home_page?.Solutions.Provide.Title}}</H1>
   </div>
     <div class="row justify-content-center mb-4">
       <div class="col-3 custom-left-border d-flex justify-content-center align-items-center pb-4">
         <div class="card one" style="width: 28rem; border-radius: 30px;">
           <div class="card-body">
             <H3 class="title">UTILITY</H3>
-            <h3 class="Solution mt-3">{{content.home_page.Solutions.Provide.HeadingOne}}</h3>
-            <p class="card-text">{{content.home_page.Solutions.Provide.BodyOne}}</p>
+            <h3 class="Solution mt-3">{{content.home_page?.Solutions.Provide.HeadingOne}}</h3>
+            <p class="card-text">{{content.home_page?.Solutions.Provide.BodyOne}}</p>
           </div>
         </div>
       </div>
@@ -32,8 +32,8 @@
         <div class="card two" style="width: 28rem; border-radius: 30px;">
           <div class="card-body">
             <H3 class="title">MARKETING</H3>
-            <h2 class="Solution mt-3">{{content.home_page.Solutions.Provide.HeadingTwo}}</h2>
-            <p class="card-text">{{content.home_page.Solutions.Provide.BodyTwo}}</p>
+            <h2 class="Solution mt-3">{{content.home_page?.Solutions.Provide.HeadingTwo}}</h2>
+            <p class="card-text">{{content.home_page?.Solutions.Provide.BodyTwo}}</p>
           </div>
         </div>
       </div>
@@ -41,18 +41,18 @@
         <div class="card two" style="width: 28rem; border-radius: 30px;">
           <div class="card-body">
             <H3 class="title">AUTHENTICATION</H3>
-            <h2 class="Solution mt-3">{{content.home_page.Solutions.Provide.HeadingThree}}</h2>
-            <p class="card-text">{{content.home_page.Solutions.Provide.BodyThree}}</p>
+            <h2 class="Solution mt-3">{{content.home_page?.Solutions.Provide.HeadingThree}}</h2>
+            <p class="card-text">{{content.home_page?.Solutions.Provide.BodyThree}}</p>
           </div>
         </div>
       </div>
     </div>
     <div class="row firstrow justify-content-center">
       <div class="col-8 ">
-        <h4 style="color: #6e7982;">{{content.home_page.Solutions.Presence.Quote}}</h4>
+        <h4 style="color: #6e7982;">{{content.home_page?.Solutions.Presence.Quote}}</h4>
         <div class="buttons pt-4">
-          <a class="btn expert" @click="toFormpage" role="button">{{content.home_page.Solutions.Presence.Expert}}</a>
-          <a class="btn register ms-3" href="#" role="button">{{content.home_page.Solutions.Presence.Register}}</a>
+          <a class="btn expert" @click="toFormpage" role="button">{{content.home_page?.Solutions.Presence.Expert}}</a>
+          <a class="btn register ms-3" href="#" role="button">{{content.home_page?.Solutions.Presence.Register}}</a>
         </div>
 
       </div>
